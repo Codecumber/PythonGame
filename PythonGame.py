@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors
+# Rock, Paper, Scissors game
 import random
 
 game_list = ("r", "p", "s")
