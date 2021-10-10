@@ -35,7 +35,7 @@ while No_Of_Chances < Total_Chances:
       elif game == "p" and _random == "s":
            Computer_Points = Computer_Points + 1
            print(f"Your guess is {game} and Computer's guess is {_random} \n")
-           print("Human wins 1 point \n")
+           print("Computer wins 1 point \n")
            print(f"Computer's Points are {Computer_Points} and your points are {Human_Points} \n")
 
       elif game == "p" and random == "r":
@@ -54,7 +54,7 @@ while No_Of_Chances < Total_Chances:
       elif game == "s" and _random == "p":
            Human_Points = Human_Points + 1
            print(f"Your guess is {game} and computer's guess is {_random} \n")
-           print("Computer wins 1 point \n")
+           print("Human wins 1 point \n")
            print(f"Computer's Points are {Computer_Points} and your points are {Human_Points} \n ")
 
       else:
